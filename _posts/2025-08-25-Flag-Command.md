@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flag Command"
+title: "HTB - Flag Command"
 date: 2025-08-25
 ---
 
