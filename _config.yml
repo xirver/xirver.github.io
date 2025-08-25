@@ -1,0 +1,49 @@
+# Setup
+title: Federico Casenove
+description: "Writeups, notes, and random ramblings from my CTF journey"
+url: "https://xirver.github.io"   # <-- replace with your actual GitHub Pages URL
+paginate: 5                       # number of posts per page
+baseurl: ""                       # leave empty for user.github.io repo
+permalink: pretty
+
+# Plugins (GitHub Pages supports these)
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Uncomment and replace with your Google Analytics tracking ID if you want analytics
+# ga_analytics: UA-000000-0
+
+# Author info
+author:
+  name: Federico
+  url: https://github.com/xirver   # or your personal website/twitter
+  
+
+# Custom vars
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: Blog
+    url: /archive       # this will list all your posts
+
+  - title: About
+    url: /about         # this should be an about.md page in the root
