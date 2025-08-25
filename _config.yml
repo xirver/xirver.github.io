@@ -45,5 +45,5 @@ nav:
   - title: Blog
     url: /archive       # this will list all your posts
 
-  - title: About
-    url: /about         # this should be an about.md page in the root
+#  - title: About
+#    url: /about         # this should be an about.md page in the root
