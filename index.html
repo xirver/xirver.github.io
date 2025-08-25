@@ -3,41 +3,56 @@ layout: default
 title: Home
 ---
 
-<head>
-  <meta charset="UTF-8">
-  <title>whoami</title>
-  <style>
-    .about-box {
-      display: none; /* hidden by default */
-      margin: 1em 0;
-      padding: 1em;
-      background: #222;
-      color: #fff;
-      border-radius: 8px;
-    }
-    .toggle-btn {
-      cursor: pointer;
-      color: #00ff99;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <h2 class="toggle-btn" onclick="toggleAbout()">whoami</h2>
+<h2 class="toggle-btn" onclick="toggleAbout()">
+  whoami<span class="blinker">?</span>
+</h2>
 
-  <div id="about" class="about-box">
-    <p>Hi, I’m <strong>Federico</strong>, a cybersecurity enthusiast and CTF player.  
+<div id="about" class="about-box">
+  <p>
+    Hi, I’m <strong>Federico</strong>, a cybersecurity enthusiast and CTF player.  
     I love breaking things (legally), especially through web exploitation, reverse engineering, and pwning challenges.  
-    When I’m not hacking, you’ll usually find me playing video games or reading manga. 🎮📚</p>
-  </div>
+    When I’m not hacking, you’ll usually find me playing video games or reading manga. 🎮📚
 
-  <script>
-    function toggleAbout() {
-      const box = document.getElementById("about");
-      box.style.display = (box.style.display === "block") ? "none" : "block";
+    When I’m not hacking away at CTFs, you’ll usually find me deep into <strong>video games</strong> or catching up on <strong>manga</strong>.  
+    Basically, if I’m not popping shells, I’m probably grinding levels or reading some "japanese comics" as someone would say.  
+
+    This blog is my little corner of the internet where I share writeups, tips, and random notes from my CTF journey.
+  </p>
+</div>
+
+<style>
+  .about-box {
+    display: none; /* hidden by default */
+    margin: 1em 0;
+    padding: 1em;
+    background: #222; /* dark background */
+    color: inherit; /* match template text color */
+    border-radius: 8px;
+  }
+
+  .toggle-btn {
+    cursor: pointer;
+    color: inherit; /* match theme text color */
+    font-weight: bold;
+  }
+
+  .blinker {
+    animation: blinker 1s step-start infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
     }
-  </script>
+  }
+</style>
+
+<script>
+  function toggleAbout() {
+    const box = document.getElementById("about");
+    box.style.display = (box.style.display === "block") ? "none" : "block";
+  }
+</script>
 
 <div class="posts">
   {% for post in paginator.posts %}
