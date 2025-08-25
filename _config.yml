@@ -1,5 +1,5 @@
 title: CTF Writeups
 description: Sharing my CTF challenge solutions and pentesting journey
-remote_theme: poole/dark-poole
+remote_theme: chesterhow/dark-poole
 plugins:
   - jekyll-remote-theme
