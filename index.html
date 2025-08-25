@@ -37,13 +37,13 @@ title: Home
   }
 
   .blinker {
-    animation: blinker 1s step-start infinite;
+    animation: blinker 1.5s ease-in-out infinite;
   }
 
   @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
+    0%   { opacity: 1; }
+    50%  { opacity: 0.3; }
+    100% { opacity: 1; }
   }
 </style>
 
