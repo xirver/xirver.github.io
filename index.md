@@ -1,7 +1,14 @@
 ---
 layout: default
-title: "Welcome to My CTF Blog"
+title: "Home"
 ---
 
-# Hello!
-This is my personal CTF writeups blog 🚀
+# 🏴‍☠️ My CTF Writeups
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
