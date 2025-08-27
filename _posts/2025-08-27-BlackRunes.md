@@ -40,7 +40,7 @@ So i crafted a more specific payload:
 
 I created a new document with it inside and i exported the document, by doing so this was the content of the exported pdf.
 
-![Output payload Screenshot]({{ "/assets/images/DarkRoses/output_darkrunes.png" | relative_url }})
+<img src="/assets/images/DarkRoses/output_darkrunes.png" alt="darkroses">
 
 This hinted me that by applying some more changes to the payload i was able to use it to retrive the file containing the flag.
 
