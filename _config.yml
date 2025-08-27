@@ -2,7 +2,7 @@
 title: Federico Casenove
 description: "Writeups, notes, and random ramblings from my CTF journey"
 url: "https://xirver.github.io"   # <-- replace with your actual GitHub Pages URL
-paginate: 5                       # number of posts per page
+paginate: 1                       # number of posts per page
 baseurl: ""                       # leave empty for user.github.io repo
 permalink: pretty
 
