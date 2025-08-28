@@ -5,7 +5,7 @@ date: 2025-08-28
 ---
 
 ## Challenge Description
-This was an easy reverse challenge, perfect for a beginner. 
+This was an easy reverse challenge, perfect for a beginner. The description of this challange is the following: All the coolest ghosts in town are going to a Haunted Houseparty - can you prove you deserve to get in?
 
 ## Solution
 First of all run the executable to understand what it is asking for.
