@@ -5,7 +5,7 @@ date: 2025-08-27
 ---
 
 ## Challenge Description
-This was a cool web challenge from Hack The Box, called **BlackRunes**. The description of this challange is the following: Survivors find a battered laptop in the rubble. Powering it up, they discover a cryptic software interface from an ancient architecture firm, hinting at vital blueprints. They must crack its security protocols. Undeterred, they race against time.
+This was a cool web challenge, called **BlackRunes**. The description of this challange is the following: Survivors find a battered laptop in the rubble. Powering it up, they discover a cryptic software interface from an ancient architecture firm, hinting at vital blueprints. They must crack its security protocols. Undeterred, they race against time.
 
 ## Solution
 I initially runned dirsearch:
