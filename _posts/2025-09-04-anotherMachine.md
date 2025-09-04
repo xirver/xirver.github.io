@@ -379,14 +379,11 @@ I initially tried to execute a reverse shell, but then i moved to checking the c
 {"name":"Cleanup","command":"/root/scripts/cleanup.sh","schedule":"* * * * *","stopped":false,"timestamp":"Sat Mar 01 2025 17:15:09 GMT+0000 (Coordinated Universal Time)","logging":"false","mailing":{},"created":1740849309992,"saved":false,"_id":"gNIRXh1WIc9K7BYX"}           
 ```
 
-This tells us that the backup process is executed daily:
-`"schedule":"@daily"`
-Meanwhile the Cleanup is executed every minute:
-`"schedule":"* * * * *"`.
+This tells us that the backup process is executed daily, `"schedule":"@daily"`, meanwhile the Cleanup is executed every minute, `"schedule":"* * * * *"`. But more importantly in the backup process we can see a password:
 
-But more important in the backup process we can see a password:
-
-`P4ssw0rdS0pRi0T3c`
+```
+P4ssw0rdS0pRi0T3c
+```
 
 In this case it is used for zipping the backup file. But lets note it down because since these processes are executed by the root it might happen that this password might be used also for accessing as root.
 Now lets see what type of binaries we are able to use. By running:
