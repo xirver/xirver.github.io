@@ -59,7 +59,7 @@ In order to fix it and be able to resolve the correct address lets do this to `/
 
 `sudo nano /etc/hosts`
 
-ADD this line to resolve the IP:
+Lets add this line to resolve the IP:
 
 `10.10.11.68   planning.htb`
 
